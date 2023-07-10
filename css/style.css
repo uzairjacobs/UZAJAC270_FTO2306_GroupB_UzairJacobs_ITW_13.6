@@ -142,3 +142,22 @@ button:hover {
 .row-span-2 {
 
 }
+
+.categories{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(3, 100px);
+gap: 2px;
+grid-auto-rows: 100px;
+
+}
+
+.appliances{
+    grid-row: 1 / 3;
+    grid-column: 3 / 4;
+}
+
+.bedroom-decor{
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+}
